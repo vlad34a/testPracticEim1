@@ -7,11 +7,26 @@
     android:orientation="vertical"
     tools:context="com.example.vlad.practicaltest01.PracticalTest01MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch Activity"
+            android:id="@+id/switchButton"
+            android:layout_gravity="bottom|end"/>
+    </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
+
+
+
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -28,6 +43,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="number"
                     android:text="0"
+                    android:enabled="false"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:saveEnabled="false"
